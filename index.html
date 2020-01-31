@@ -86,26 +86,49 @@
         <div class="row align-items-center justify-content-center">
 
           
-          <div class="col-md-10 mt-lg-5 text-center">
-            <div>
+          <div class="col-md-6 mt-lg-5 text-center">
               <div>
-                <h1 class="text-uppercase">Credicorr</h1>
-                <p class="mb-5 desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptas blanditiis nemo quo consectetur saepe ad laboriosam ipsum, quibusdam commodi rerum earum modi fugit fuga voluptatum id, possimus accusamus sed!</p>
-                <div>
-                  <div class="row form-group">
-                    <div class="col-md-12">
-                      <a href="prestamo.html" class="btn solicitarboton btn-md text-white" role="button">PEDI TU PRÉSTAMO AHORA</a> 
-                    </div>
-                    
-                  </div>
+                <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptas blanditiis nemo quo consectetur saepe ad laboriosam ipsum, quibusdam commodi rerum earum modi fugit fuga voluptatum id, possimus accusamus sed!</p>
                 </div>
-              </div>
+            </div>
+           
 
+              <div class="col-md-6">
+                <form class="credit">
+                  <div class="form-group">
+                    <label for="amount" class="text-black">¿Cúanto queres?</label>
+                    <div class="input-group">
+                      
+                      <input type="number" class="form-control validate" id="amount" placeholder="Te prestamos hasta $70.000" required>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group porcentaje">
+                    <label for="percent">Percent</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">%</div>
+                      <input type="number" step="0.001" class="form-control validate" id="percent" placeholder="Percent" value="133" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="text-black"><span class="rangevalue text-black">1</span> Meses</label>
+                    <input class="slider" type="range" min="3" max="24" value="12">
+        
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Calcular</button>
+        
+                </form>
+                <h3 class="results">Valor de cuota aproximado: <span class="month-pay"></span><br>
+                  <small>Pago total: <span class="pay"></span></small></h3>
+        
+                
+        
+              </div>
             </div>
           </div>
             
         </div>
-      </div>
+     
 
       
     </div>  
@@ -133,24 +156,13 @@
 
         </div>
       </section>
-        
 
-    
-   
-
-    
-    
-
-   
-
-
-    
-      
            
-      
+     
      <section  id="faq-section">
+     <div class="preguntaarriba">
         <h1 class="h2 mb-5 text-center comoprestamo frecuentespre">Preguntas frecuentes</h1> 
-      
+      </div>
         
         <div class="tab">
           <input id="tab-1" type="checkbox" name="tab">
@@ -196,13 +208,13 @@
             <p>El préstamo se puede solicitar hasta en 24 cuotas fijas.</p>
           </div>
         </div>
-      </section>
+      
       
   
 
       <div class="button_cont pediloahora" align="center"><a class="example_c" href="prestamo.html" rel="nofollow noopener">PEDILO AHORA</a></div>
 
-    
+    </section>
     <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -234,6 +246,7 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/faq.js"></script>
+  <script src="js/script.js"></script>
   
   <script src="js/main.js"></script>
 
