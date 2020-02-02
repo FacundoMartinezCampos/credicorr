@@ -12,8 +12,8 @@ require("./sendgrid-php.php");
 // If not using Composer, uncomment the above line
 echo 'sendgrid api key ->' . getenv('SENDGRID_API_KEY');
 $email = new \SendGrid\Mail\Mail(); 
-$email->setFrom("solo-formularios@credicorr.com.ar", "Example User");
-$email->setSubject("Sending with SendGrid is Fun");
+$email->setFrom("solo-formularios@credicorr.com.ar", "Credicorr System");
+$email->setSubject("Formulario Credicorr");
 $email->addTo("testing446688@gmail.com", "Example User");
 $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
 $email->addContent(
