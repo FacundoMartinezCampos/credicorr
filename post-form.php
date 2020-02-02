@@ -20,6 +20,7 @@ $email->addContent(
 );
 $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
 try {
+    echo 'This is also executing';
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
     print_r($response->headers());
