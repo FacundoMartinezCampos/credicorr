@@ -8,7 +8,7 @@ echo 'asd';
 require("./sendgrid-php.php");
 // If not using Composer, uncomment the above line
 $email = new \SendGrid\Mail\Mail();
-$email->setFrom("solo-formularios@credicorr.com.ar", "Credicorr");
+$email->setFrom("testing446688@gmail.com", "Credicorr");
 $email->setSubject("Formulario Credicorr.");
 $email->addTo("testing446688@gmail.com", "Example User");
 $email->addContent(
