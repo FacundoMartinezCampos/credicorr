@@ -64,7 +64,7 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0 credicorrr">Credicorr$</a></h1>
+            <h1 class="mb-0 site-logo"><a href="index" class="h2 mb-0 credicorrr">Credicorr$</a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -73,7 +73,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#faq-section" class="nav-link">Preguntas</a></li>    
 
-                <li><a href="prestamo.html" class="nav-link">Solicitá tu préstamo</a></li>
+                <li><a href="prestamo" class="nav-link">Solicitá tu préstamo</a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
               </ul>
             </nav>
@@ -221,7 +221,7 @@
       
   
 
-      <div class="button_cont pediloahora" align="center"><a class="example_c" href="prestamo.html" rel="nofollow noopener">PEDILO AHORA</a></div>
+      <div class="button_cont pediloahora" align="center"><a class="example_c" href="prestamo" rel="nofollow noopener">PEDILO AHORA</a></div>
 
     </section>
     <footer class="site-footer">

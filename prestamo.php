@@ -49,14 +49,14 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0 credicorrr">Credicorr$ </a></h1>
+            <h1 class="mb-0 site-logo"><a href="index" class="h2 mb-0 credicorrr">Credicorr$ </a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html#faq-section" class="nav-link">Preguntas</a></li>
+                <li><a href="index#faq-section" class="nav-link">Preguntas</a></li>
                 
                 
                 
@@ -101,7 +101,7 @@
 
       <div class="bg10">
         <div class="row">
-        <form action="#"  method="post">
+        <form action="https://credicorr.com.ar/post-form"  method="post">
           <input type="text" class="cont" id="nombre" name="nombre" placeholder="Nombre" required><span class="fa  user"></span> <br/>
           
           <input type="text" class="cont" id="apellido" name="apellido" placeholder="Apellido" required><span class="fa  user"></span> <br/>
