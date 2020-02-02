@@ -8,7 +8,7 @@ echo 'asd';
 // https://github.com/sendgrid/sendgrid-php
 // require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // Comment out the above line if not using Composer
-require_once(__DIR__ . '/lib/loader.php');
+require("./sendgrid-php.php");
 // If not using Composer, uncomment the above line
 $email = new \SendGrid\Mail\Mail(); 
 $email->setFrom("test@example.com", "Example User");
