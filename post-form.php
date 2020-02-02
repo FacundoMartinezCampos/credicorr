@@ -7,13 +7,11 @@ echo 'asd';
 // Comment out the above line if not using Composer
 require("./sendgrid-php.php");
 // If not using Composer, uncomment the above line
-$email = new \SendGrid\Mail\Mail();
-$email->setFrom("testing446688@gmail.com", "Credicorr");
-$email->setSubject("Formulario Credicorr.");
+$email = new \SendGrid\Mail\Mail(); 
+$email->setFrom("test@example.com", "Example User");
+$email->setSubject("Sending with SendGrid is Fun");
 $email->addTo("testing446688@gmail.com", "Example User");
-$email->addContent(
-    "text/plain", "and easy to do anywhere, even with PHP"
-);
+$email->addContent("text/plain", "and easy to do anywhere, even with PHP");
 $email->addContent(
     "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
 );
@@ -24,5 +22,5 @@ try {
     print_r($response->headers());
     print $response->body() . "\n";
 } catch (Exception $e) {
-    echo 'Caught exception: ',  $e->getMessage(), "\n";
+    echo 'Caught exception: '. $e->getMessage() ."\n";
 }
