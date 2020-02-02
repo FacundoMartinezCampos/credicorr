@@ -2,7 +2,7 @@ $(function() {
 
 	var Calc = function(options) {
 		$.extend(this, options, {
-			currency: ' $',
+			currency: '',
 			months: 24
 		});
 
