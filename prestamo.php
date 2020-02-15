@@ -25,6 +25,7 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d45abb8bd.js" crossorigin="anonymous"></script>
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -48,8 +49,8 @@
       <div class="container">
         <div class="row align-items-center">
           
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index" class="h2 mb-0 credicorrr">Credicorr$ </a></h1>
+        <div href="index" class="credicorrlogo col-6 col-xl-2">
+          <a href="index"><img src="images/credicorrlogotransparente.png"  alt="credicorrlogo"></a>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -62,7 +63,7 @@
                 
                 
                
-                <li><a href="" class="nav-link">Solicitá tu préstamo</a></li>
+                <li><a href="prestamo" class="nav-link">Solicitá tu préstamo</a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
               </ul>
             </nav>
@@ -76,18 +77,25 @@
       
     </header>
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-      <div class="headerprestamo">
+      <div class="headerprestamo" id="prestamo-section">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <h3 class="paraquien fondoblanco">Préstamos personales para:</h3>
             <div class="col-md-12">
-              <p><ul class="quienes">
-                <li>Jubilados (ANSES)</li>
-                <li>Empleados públicos (Banco Provincia)</li>
-                <li>Empleados privados</li>
-                <li>Prefectura, Gendarmería y la Policía de la Ciudad de Buenos Aires</li>
-                <li>Personal Civil y Militar del Ejército, Fuerza Aérea y Armada</li>
-              </ul></p>
+            <p><ul class="quienes">
+    
+    <li class="text-white">Empleados públicos Provincia de Buenos Aires, nacionales</li>
+    <li class="text-white">Empleados de empresas privadas.</li>
+    <li class="text-white">Jubilados y pensionados de ANSES</li>
+    <li class="text-white">Madres de 7 hijos</li>
+    <li class="text-white">Pensiones no contributivas</li>
+    <li class="text-white">Pensiones por discapacidad</li>
+    <li class="text-white">Policía provincia de Buenos Aires</li>
+    <li class="text-white">Fuerzas armadas (cbu/haberes) Ejército, Armada, Gendarmería, Fuerza aérea</li>
+  </ul></p>
+<div class="completaformulario">
+  <p>Completá el siguiente formulario y te contactaremos a la brevedad.</p>
+  </div>
             </div>
           </div>
         </div>
@@ -98,7 +106,7 @@
  
         <section class="formulario">
         <div class="centrar">
-
+          
       <div class="bg10">
         <div class="row">
         <form action="https://credicorr.com.ar/post-form"  method="post">
@@ -117,16 +125,17 @@
           <input type="text" id="ciudad" class="cont" name="ciudad" placeholder="Ciudad" required> <span class="fa fa ciudad"></span> <br/>
           
           <input type="number" id="dni" class="cont" name="dni" placeholder="DNI" required> <span class="fa fa dni"></span> <br/>
+
+          <input type="number" id="dni" class="cont" name="cuil" placeholder="Cuil/Cuit" required> <span class="fa fa cuil"></span> <br/>
           
           <input type="text" id="trabajo" class="cont" name="trabajo" placeholder="¿Dónde trabajas?" required> <span class="fa fa trabajo"></span> <br/>
           
           <input type="number" id="monto" class="cont" name="monto" placeholder="Monto deseado: Hasta $70.000" required> <span class="fa fa monto"></span> <br/>
           
           <input type="number" id="cuotas" class="cont" name="cuotas" placeholder="Hasta 24 cuotas fijas" required> <span class="fa fa cuotas"></span> <br/>
-
           
           
-          <textarea rows="10" cols="40" id="boxing"  class="cont" placeholder="Mensaje"></textarea> <span class="fa  comment"></span><br/>
+          <textarea rows="10" cols="40" id="boxing" name="mensaje"  class="cont" placeholder="Mensaje"></textarea> <span class="fa  comment"></span><br/>
           
           
           <div class="botonformulario2">
@@ -138,16 +147,56 @@
     </div>
   </section>
 
+  
+
+
+
+  <a href="https://api.whatsapp.com/send?phone=11111111&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+        
+        
+        
+        
+        
+        <footer class="site-footer footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Oficina</h4>
+                                <span>0000000000000000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Telefono</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
 
-        
-        
-        
-        
-        
-        <footer class="site-footer">
           <div class="container">
             <div class="row">
               <div class="col-md-12">

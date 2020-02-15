@@ -5,6 +5,7 @@ html {
 
   .paraquien {
     padding-top: 2.5em;
+    margin-top: 1em;
     color: white;
   
   }
@@ -285,7 +286,8 @@ body:after {
   position: absolute;
   top: 0;
   width: 100%;
-  border-bottom: rgba(255, 255, 255, 0.7); }
+  border-bottom: rgba(255, 255, 255, 0.7);
+  }
   .site-navbar .site-logo {
     position: relative;
     left: 0;
@@ -550,22 +552,24 @@ body:after {
   .sticky-wrapper .site-navbar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
     .sticky-wrapper .site-navbar .site-menu-toggle {
-      color: #fff; }
+      color: #00923F; }
     .sticky-wrapper .site-navbar .site-logo a {
-      color: #fff; }
+      color: rgb(255, 244, 2); }
     .sticky-wrapper .site-navbar .site-menu > li > a {
       color: rgba(255, 255, 255, 0.7) !important; }
       .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
         color: #fff !important; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #fff;
+    background: #00923F;
     border-bottom: 1px solid transparent;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1); }
     .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-      color: #1F941D; }
+      color: rgb(255, 244, 2);
+      text-shadow: -1px 0 #29166F, 0 2px #29166F, 2px 0 #29166F, 0 -1px #29166F; } 
+      b
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
@@ -2337,6 +2341,10 @@ figure figcaption {
       text-shadow: 0 0 15px #4dc247;
       transition: all 0.5s ease;
     }
+
+    .whatsappicon {
+      padding-top: 0.03em;
+    }
     
     
     /* media queries */
@@ -2626,6 +2634,8 @@ figure figcaption {
 
 .credicorrr {
   font-family: 'Bebas Neue', cursive;
+  border-width: 2px;
+  border-color: #29166F;
 }
 
 
@@ -2636,7 +2646,7 @@ figure figcaption {
   font-size: 12px;
   background-color: rgba(255,253,231 ,0.1);
   border: 1px solid rgba(236,239,241 ,0.5);
-  width: 400px;
+  width: 350px;
 }
 
 
@@ -2649,7 +2659,7 @@ figure figcaption {
 
 
 #submit_button {
-  width: 400px;
+  width: 300px;
   height: 50px;
   font-size: 16px;
   color: #F5F5F5;
@@ -2768,7 +2778,218 @@ z-index: 2;
 
 .botonformulario2 {
   padding-bottom: 2em;
+  display: table;
+  margin: 0 auto;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
 
 
 
+.sombracard {
+-webkit-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.6);
+-moz-box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.6);
+box-shadow: 2px 2px 20px 1px rgba(0,0,0,0.6);
+}
+
+
+@media(max-width:768px){
+  .calculadoraprestamo{
+    display:none;
+  }
+}
+
+
+hr.style5 {
+  border-top: 2px #8c8b8b;
+
+}
+
+.tarjetapadding {
+  padding-top: 1em;
+}
+
+.credicorrlogo {
+  z-index: 100000000000000000000000000000;
+}
+
+
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+.completaformulario {
+  text-align: center;
+  color: white;
+}

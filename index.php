@@ -34,6 +34,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/8d45abb8bd.js" crossorigin="anonymous"></script>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -63,8 +64,8 @@
       <div class="container">
         <div class="row align-items-center">
           
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index" class="h2 mb-0 credicorrr">Credicorr$</a></h1>
+          <div href="index" class="credicorrlogo col-6 col-xl-2">
+          <a href="index"><img src="images/credicorrlogotransparente.png"  alt="credicorrlogo"></a>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -72,7 +73,6 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#faq-section" class="nav-link">Preguntas</a></li>    
-
                 <li><a href="prestamo" class="nav-link">Solicitá tu préstamo</a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
               </ul>
@@ -91,43 +91,37 @@
      
     <div class="site-blocks-cover overlay" data-aos="fade" id="home-section">
 
-      <div class="container">
+      <div class="container tarjetapadding">
         <div class="row align-items-center justify-content-center">
 
           
-          <div class="col-md-6 mt-lg-5 text-center">
-              <div>
-                <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptas blanditiis nemo quo consectetur saepe ad laboriosam ipsum, quibusdam commodi rerum earum modi fugit fuga voluptatum id, possimus accusamus sed!</p>
-                </div>
+          <div class="col-md-6 mt-5">
+         
+  <div class="card bg-danger sombracard">
+    <div class="card-body">
+    <h3 class="text-center text-white">Préstamos para:</h3>
+    <p><ul>
+    
+                <li class="text-white">Empleados públicos Provincia de Buenos Aires, nacionales</li>
+                <li class="text-white">Empleados de empresas privadas</li>
+                <hr class="style5">
+                <li class="text-white">Jubilados y pensionados de ANSES</li>
+                <li class="text-white">Madres de 7 hijos</li>
+                <li class="text-white">Pensiones no contributivas</li>
+                <li class="text-white">Pensiones por discapacidad</li>
+                <hr class="style5">
+                <li class="text-white">Policía provincia de Buenos Aires</li>
+                <li class="text-white">Fuerzas armadas (cbu/haberes) Ejército, Armada, Gendarmería, Fuerza aérea</li>
+              </ul></p>
+    </div>
+</div>
             </div>
+
+            
+            
            
 
-              <div class="col-md-6">
-                <form class="credit">
-                  <div class="form-group">
-                    <label for="amount" class="text-black">¿Cúanto queres?</label>
-                    <div class="input-group">
-                      
-                      <input type="number" class="form-control validate" id="amount" placeholder="Te prestamos hasta $70.000" required>
-                    </div>
-                  </div>
-                  
-                  <div class="form-group porcentaje">
-                    <label for="percent">Percent</label>
-                    <div class="input-group">
-                      <div class="input-group-addon">%</div>
-                      <input type="number" step="0.001" class="form-control validate" id="percent" placeholder="Percent" value="133" required>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="text-black"><span class="rangevalue text-black">1</span> Meses</label>
-                    <input class="slider" type="range" min="3" max="24" value="12">
-        
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-block">Calcular</button>
-        
-                </form>
-                <h3 class="results">Valor de cuota aproximado*: $<span class="month-pay"></span><br>
+              
                   
         
                 
@@ -141,6 +135,7 @@
 
       
     </div>  
+    
     
 <section class="faqq">
     <div class="site-section" id="next">
@@ -217,6 +212,7 @@
             <p>El préstamo se puede solicitar hasta en 24 cuotas fijas.</p>
           </div>
         </div>
+
       
       
   
@@ -224,13 +220,55 @@
       <div class="button_cont pediloahora" align="center"><a class="example_c" href="prestamo" rel="nofollow noopener">PEDILO AHORA</a></div>
 
     </section>
-    <footer class="site-footer">
+
+    <a href="https://api.whatsapp.com/send?phone=11111111&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <div class="whatsappicon">
+    <i class="fab fa-whatsapp my-float"></i>
+    </div>
+</a>
+    <footer class="site-footer footer-section">
+
+    <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Oficina</h4>
+                                <span>0000000000000000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Telefono</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-12 textofooter">
-                <p> *El valor de la cuota indicado en la calculadora no representa el valor final. el otorgamiento del préstamo personal, se encuentra sujeto a calificación crediticia y condiciones de contratación. Las condiciones de los préstamos personales variarán de acuerdo a la calificación crediticia del interesado y las condiciones de mercado y políticas vigentes al momento del otorgamiento. Monto máximo $ 70.000, mínimo $ 3.000. Plazo: máximo 18 meses, mínimo 3 meses. Tasa máxima que incluye costo financiero total ANUAL para ARGENTINA (CFT). (132%). Ej. Para un préstamo de 2000 en 3 meses: Tasa Nominal Anual fija (78.8%), Costo financiero total ANUAL (132%). Ejemplo: Para un préstamo de $ 3000,00 en tres meses abona 3 cuotas iguales y fijas de $1300, y para seis meses 6 cuotas iguales y fijas de $ 800,00. La tasa será decreciente para los clientes con antigüedad y buen comportamiento de pago. Pre-cancelación: Todos los préstamos son pre cancelables abonando el interés correspondiente a la fecha del efectivo pago con más el saldo de la cuenta capital. Renovación: Abonando el 50% del préstamo podrá renovarse el mismo con la posibilidad, sujeta a aprobación, de aumentar el monto de otorgamiento. Los préstamos están disponibles para empleados en relación de dependencia. Los pagos podrán realizarse por débito automático, o en sucursales Pago Fácil, Rapipago, Cobro Express, Provincia Pagos, Ripsa Pagos y otras entidades. Para el caso de mora en el pago de las cuotas la Empresa se reserva el derecho de iniciar las acciones legales extrajudiciales y judiciales pertinentes.</p>
+                <p>se encuentra sujeto a calificación crediticia y condiciones de contratación. Las condiciones de los préstamos personales variarán de acuerdo a la calificación crediticia del interesado y las condiciones de mercado y políticas vigentes al momento del otorgamiento. Monto máximo $ 70.000, mínimo $ 3.000. Plazo: máximo 18 meses, mínimo 3 meses. Tasa máxima que incluye costo financiero total ANUAL para ARGENTINA (CFT). (132%). Ej. Para un préstamo de 2000 en 3 meses: Tasa Nominal Anual fija (78.8%), Costo financiero total ANUAL (132%). Ejemplo: Para un préstamo de $ 3000,00 en tres meses abona 3 cuotas iguales y fijas de $1300, y para seis meses 6 cuotas iguales y fijas de $ 800,00. La tasa será decreciente para los clientes con antigüedad y buen comportamiento de pago. Pre-cancelación: Todos los préstamos son pre cancelables abonando el interés correspondiente a la fecha del efectivo pago con más el saldo de la cuenta capital. Renovación: Abonando el 50% del préstamo podrá renovarse el mismo con la posibilidad, sujeta a aprobación, de aumentar el monto de otorgamiento. Los préstamos están disponibles para empleados en relación de dependencia. Los pagos podrán realizarse por débito automático, o en sucursales Pago Fácil, Rapipago, Cobro Express, Provincia Pagos, Ripsa Pagos y otras entidades. Para el caso de mora en el pago de las cuotas la Empresa se reserva el derecho de iniciar las acciones legales extrajudiciales y judiciales pertinentes.</p>
               </div>
             </div>
           </div>
